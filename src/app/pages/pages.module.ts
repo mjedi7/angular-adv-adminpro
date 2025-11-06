@@ -10,6 +10,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
+import { AccountsettingsComponent } from './accountsettings/accountsettings.component';
 
 
 
@@ -20,12 +21,14 @@ import { PagesComponent } from './pages.component';
         ProgressComponent,
         Grafica1Component,
         PagesComponent,
+        AccountsettingsComponent,
   ],
   exports: [
         DashboardComponent,
         ProgressComponent,
         Grafica1Component,
         PagesComponent,
+        AccountsettingsComponent,
   ],
   imports: [
     CommonModule,
