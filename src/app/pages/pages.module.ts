@@ -11,8 +11,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { AccountsettingsComponent } from './accountsettings/accountsettings.component';
-
-
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -22,6 +21,7 @@ import { AccountsettingsComponent } from './accountsettings/accountsettings.comp
         Grafica1Component,
         PagesComponent,
         AccountsettingsComponent,
+        RxjsComponent,
   ],
   exports: [
         DashboardComponent,
@@ -29,6 +29,7 @@ import { AccountsettingsComponent } from './accountsettings/accountsettings.comp
         Grafica1Component,
         PagesComponent,
         AccountsettingsComponent,
+        RxjsComponent,        
   ],
   imports: [
     CommonModule,
